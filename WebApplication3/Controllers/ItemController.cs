@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using MidtermExam2.Models;
-using MidtermExam2.Views;
 
 namespace MidtermExam2.Controllers
 {
@@ -11,7 +10,7 @@ namespace MidtermExam2.Controllers
     {
         public ViewResult ItemRepository()
         {
-            return View();
+            return Views("View");
         }
             
     }
