@@ -6,11 +6,11 @@ using MidtermExam2.Models;
 
 namespace MidtermExam2.Controllers
 {
-    public class ItemController
-    {
+    public class ItemController : Controller { 
+    
         public ViewResult ItemRepository()
         {
-            return Views("View");
+            return View("View");
         }
             
     }
