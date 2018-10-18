@@ -10,7 +10,7 @@ namespace MidtermExam2.Controllers
     
         public ViewResult ItemRepository()
         {
-            return View("View");
+            return Views();
         }
             
     }

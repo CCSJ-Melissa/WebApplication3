@@ -23,10 +23,6 @@ namespace MidtermExam2.Models
 
         public class InMemoryItemRepository : IQueryable<Item>
         {
-            public int ItemID { get; set; }
-            public string Description { get; set; }
-            public int UnitsOnHand { get; set; }
-            public decimal Cost { get; set; }
-            public decimal SellingPrice { get; set; }
+            
         }
 }
